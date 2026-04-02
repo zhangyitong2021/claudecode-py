@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/claudecode-py-banner.svg" alt="claudecode-py banner" width="100%" />
+  <img src="./assets/claudecode-py-banner-claude-ui.svg" alt="claudecode-py banner" width="100%" />
 </p>
 
 <p align="center">
@@ -40,10 +40,10 @@ If you want to understand the backbone behind tools like Claude Code, this repo 
 - run short non-interactive shell commands
 - require explicit approval before any write or shell action
 
-## Demo
+## Demo v2
 
 <p align="center">
-  <img src="./assets/claudecode-py-runtime.png" alt="claudecode-py actual runtime screenshot" width="100%" />
+  <img src="./assets/claudecode-py-demo-claude-ui-v2.png" alt="claudecode-py actual runtime screenshot v2" width="100%" />
 </p>
 
 ```text
