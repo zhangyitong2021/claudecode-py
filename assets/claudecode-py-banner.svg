@@ -1,0 +1,47 @@
+<svg width="1200" height="420" viewBox="0 0 1200 420" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="40" y1="20" x2="1160" y2="400" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0F172A"/>
+      <stop offset="0.5" stop-color="#132A45"/>
+      <stop offset="1" stop-color="#1D4ED8"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="160" y1="84" x2="790" y2="260" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#60A5FA"/>
+      <stop offset="1" stop-color="#22D3EE"/>
+    </linearGradient>
+    <filter id="shadow" x="0" y="0" width="1200" height="420" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="16" stdDeviation="24" flood-color="#020617" flood-opacity="0.32"/>
+    </filter>
+  </defs>
+
+  <rect x="18" y="18" width="1164" height="384" rx="28" fill="url(#bg)" filter="url(#shadow)"/>
+  <circle cx="1080" cy="92" r="98" fill="#60A5FA" fill-opacity="0.12"/>
+  <circle cx="1010" cy="306" r="118" fill="#22D3EE" fill-opacity="0.10"/>
+  <circle cx="164" cy="92" r="74" fill="#38BDF8" fill-opacity="0.10"/>
+
+  <rect x="72" y="72" width="140" height="36" rx="18" fill="#E0F2FE" fill-opacity="0.14"/>
+  <text x="142" y="95" text-anchor="middle" fill="#E0F2FE" font-size="18" font-family="Arial, Helvetica, sans-serif">Python Agent CLI</text>
+
+  <text x="72" y="176" fill="white" font-size="64" font-weight="700" font-family="Arial, Helvetica, sans-serif">claudecode-py</text>
+  <text x="72" y="222" fill="#BFDBFE" font-size="28" font-family="Arial, Helvetica, sans-serif">A minimal Claude Code style coding agent for learning and portfolio demos</text>
+
+  <rect x="72" y="262" width="196" height="42" rx="21" fill="#0B1220" stroke="#60A5FA" stroke-opacity="0.55"/>
+  <text x="170" y="289" text-anchor="middle" fill="#E2E8F0" font-size="18" font-family="Arial, Helvetica, sans-serif">Agent Loop</text>
+
+  <rect x="286" y="262" width="196" height="42" rx="21" fill="#0B1220" stroke="#60A5FA" stroke-opacity="0.55"/>
+  <text x="384" y="289" text-anchor="middle" fill="#E2E8F0" font-size="18" font-family="Arial, Helvetica, sans-serif">Tool Dispatch</text>
+
+  <rect x="500" y="262" width="196" height="42" rx="21" fill="#0B1220" stroke="#60A5FA" stroke-opacity="0.55"/>
+  <text x="598" y="289" text-anchor="middle" fill="#E2E8F0" font-size="18" font-family="Arial, Helvetica, sans-serif">Human Approval</text>
+
+  <rect x="714" y="262" width="264" height="42" rx="21" fill="#0B1220" stroke="#60A5FA" stroke-opacity="0.55"/>
+  <text x="846" y="289" text-anchor="middle" fill="#E2E8F0" font-size="18" font-family="Arial, Helvetica, sans-serif">OpenAI Compatible Backend</text>
+
+  <path d="M780 118H1040C1060 118 1076 134 1076 154V252C1076 272 1060 288 1040 288H780C760 288 744 272 744 252V154C744 134 760 118 780 118Z" fill="#08101D" stroke="url(#accent)" stroke-width="2"/>
+  <text x="770" y="154" fill="#7DD3FC" font-size="18" font-family="Arial, Helvetica, sans-serif">Interactive REPL</text>
+  <text x="770" y="188" fill="#E2E8F0" font-size="18" font-family="Courier New, monospace">you&gt; summarize this repo</text>
+  <text x="770" y="218" fill="#67E8F9" font-size="18" font-family="Courier New, monospace">tool read_file</text>
+  <text x="770" y="248" fill="#E2E8F0" font-size="18" font-family="Courier New, monospace">assistant&gt; Here is the structure...</text>
+
+  <text x="72" y="352" fill="#93C5FD" font-size="18" font-family="Arial, Helvetica, sans-serif">Built with Typer, Rich, and OpenAI tool calling</text>
+</svg>
